@@ -1,0 +1,147 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+    font-family: "PlayfairDisplay", serif ;
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.site-nav{
+    margin:0;
+    padding:0;
+    font-size: 14px;
+    line-height: 24px;
+    list-style: none;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 45px;
+}
+
+.site-nav-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(98, 98, 98);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus{
+    color: #03a9f4;
+}
+
+.features{
+margin-bottom: 60px;
+}
+
+.site-nav-block{
+display: inline-block; 
+}
+.site-nav-block:not(:last-child){
+    margin-right: 100px;
+}
+
+
+.block{
+    width: 420px;
+    display: inline-block;
+    margin-right: 56px;  
+    margin-bottom: 46px; 
+}
+
+.block:nth-child(2n){
+    margin-right: 0;
+}
+img{
+padding-bottom: 22px;   
+}
+
+.block-type{
+    font-family: "ubuntu";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 22px; 
+}
+  
+.block-name{
+    color: rgb(98, 98, 98);
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+    padding-bottom: 22px; 
+    
+}
+.block-text{
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7;
+    margin: 0;ßß
+    
+}
+
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+main{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-button{
+    display: inline-block;
+    margin-bottom: 60px;
+    
+  
+}
+.load-more {
+    width: 162px;
+    height: 58px;
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    padding: 0px;
+  }
+  
+   .more{
+    color: rgb(98, 98, 98) ;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 35px;
+   }
+   .more:hover,
+   .more:focus{
+       color: #03a9f4;
+   }
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbobox"].visually-hidden{
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
+
+
