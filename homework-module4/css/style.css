@@ -237,6 +237,11 @@ font-family: "OpenSans";
 color: rgb(255, 255, 255);
 }
 
+.news-list-item-more:hover,
+.news-list-item-more:focus{
+  filter:grayscale(0.5);
+}
+
 
 
 
