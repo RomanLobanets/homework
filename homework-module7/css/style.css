@@ -184,7 +184,7 @@ text-align: center;
 /* CONTACT */
 
 .contact{
-background:url(../img/Map\ Image.png)right top no-repeat, url(/img/Background.png);
+background: url(../img/Map\ Image.png)right top no-repeat, url(../img/Background.png);
 height: 670px;
 }  
 
