@@ -127,10 +127,10 @@ color: #f38181;
 }
 
 .backimg1{
-   background-image: url(/img/ALARM1.png); 
+   background-image: url(../img/ALARM1.png); 
 }
 .backimg2{
-    background-image: url(/img/LINE\ GRAPH2.png);
+    background-image: url(../img/LINE\ GRAPH2.png);
 }
 .backimg3{
     background-image: url(../img/COMPUTER\ _\ OK3.png);
@@ -273,16 +273,16 @@ margin-right: 1px;
 }
 
 .facebook{
-    background-image: url(/img/facebook.png);
+    background-image: url(../img/facebook.png);
 }
 .twitter{
-    background-image: url(/img/twitter.png);
+    background-image: url(../img/twitter.png);
 }
 .pinterest{
-    background-image: url(/img/pinterest.png);
+    background-image: url(../img/pinterest.png);
 }
 .instagram{
-    background-image: url(/img/instagram.png);
+    background-image: url(../img/instagram.png);
 }
 
 .team_list-item-photo{
